@@ -9,3 +9,7 @@ When the traverse_floorwise() method is called, it iterates over all the rooms i
 After the method has finished traversing the hotel, it checks whether available_rooms is empty. If it's not, it finds the first available room by taking the minimum room number in available_rooms.
 
 This optimization reduces the time complexity of finding the first available room to O(1), since we are now just doing a lookup in a dictionary rather than iterating over all the rooms in the hotel. The time complexity of traversing the hotel is still O(MN), where M is the number of floors and N is the number of rooms per floor.
+
+Execute :
+
+python main.py
